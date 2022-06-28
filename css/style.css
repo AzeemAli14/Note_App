@@ -1,5 +1,5 @@
 .mainBody {
-  background: rgb(212, 47, 74);
+  background: whitesmoke;
 }
 
 .container {
@@ -29,13 +29,13 @@
 
 h2 {
   text-align: center;
-  color: white;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: bold;
 }
 
 .card-title {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #000;
 }
 
 .my_Notes {
