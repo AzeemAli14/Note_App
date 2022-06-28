@@ -34,6 +34,9 @@
       <form class="form-inline">
         <input id="search_txt" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+          </svg>
           Search
         </button>
       </form>
@@ -48,11 +51,18 @@
         </h1>
       </div>
     </div>
+    <br>
     <div class="container-fluid"></div>
     <div class="d-flex justify-content-center">
       <div id="shadowBody" class="shadow-lg p-3 mb-5 bg-body rounded">
         <div class="card text-center">
           <div class="card-body">
+            <div class="mb-3">
+              <h3 id="card-title" class="card-title">
+                <strong> Write a Title </strong>
+              </h3>
+              <input type="text" class="form-control" id="add_Title" placeholder="Enter a Title">
+            </div>
             <h3 id="card-title" class="card-title">
               <strong> Write a Note </strong>
             </h3>
@@ -60,7 +70,12 @@
               <label for="exampleFormControlTextarea1" class="form-label"></label>
               <textarea class="form-control" id="add_Text" rows="3"></textarea>
             </div>
-            <a id="add_Btn" class="btn btn-primary">Add Note</a>
+            <button id="add_Btn" class="btn btn-outline-info" style="font-size: 25px;"> 
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle-fill" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z"/>
+              </svg>
+              Add Note 
+            </button>
           </div>
         </div>
       </div>
